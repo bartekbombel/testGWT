@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="prototype">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='pl.supervisor.prototype' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/prototype/greet" class="pl.supervisor.server.GreetingServiceImpl" />
+
+</module>
